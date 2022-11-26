@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    width: 33.33%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    color: white
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.heading {
+    margin-top: 0;
+    border-top: 0;
+    padding: 0px 5px 5px 5px;
+    font-weight: bold;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+main {
+    width: 60%;
+    border: 1px solid grey;
+
+}
+
+.disabled {
+    background-color: grey;
+}
