@@ -42,8 +42,13 @@ button {
     border-top: 0;
     padding: 0px 5px 5px 5px;
     font-weight: bold;
-    border-top: 1px solid grey;
     border-bottom: 1px solid grey;
+    ;
+
+}
+
+.playarea {
+    margin: 10px;
 }
 
 main {
@@ -54,4 +59,14 @@ main {
 
 .disabled {
     background-color: grey;
+}
+
+.winner {
+    color: green;
+    font-weight: bold;
+}
+
+.loser {
+    color: red;
+    font-weight: bold;
 }
