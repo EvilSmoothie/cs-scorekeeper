@@ -77,5 +77,6 @@ resetButton.addEventListener('click', function () {
     playerOneButton.disabled = false;
     playerTwoButton.disabled = false;
     playToSelect.disabled = false;
+    isGameOver = false;
     scoreBoard.removeChild(scoreBoard.lastChild);
 })
