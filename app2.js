@@ -42,7 +42,7 @@ function updateScore(player, opponent) {
             player.display.classList.add('winner');
             opponent.display.classList.add('loser');
             player.button.disabled = true;
-            opponent.disabled = true;
+            opponent.button.disabled = true;
 
             const banner = document.createElement('p');
             banner.append(`${player.name} Wins! `);
