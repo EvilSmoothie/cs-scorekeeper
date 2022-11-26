@@ -1,12 +1,15 @@
+const p1Name = prompt('Enter Player 1 Name');
+const p2Name = prompt('Enter Player 2 Name');
+
 const p1 = {
     score: 0,
-    name: "Player 1",
+    name: p1Name,
     button: document.querySelector('#player1'),
     display: document.querySelector('#p1')
 }
 const p2 = {
     score: 0,
-    name: "Player 2",
+    name: p2Name,
     button: document.querySelector('#player2'),
     display: document.querySelector('#p2')
 }
